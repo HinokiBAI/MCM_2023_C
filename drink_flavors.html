@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="bd4d34382e494336a6cdaf8ef133cfac" class="chart-container" style="width:1000px; height:600px; "></div>
+    <script>
+        var chart_bd4d34382e494336a6cdaf8ef133cfac = echarts.init(
+            document.getElementById('bd4d34382e494336a6cdaf8ef133cfac'), 'white', {renderer: 'canvas'});
+        var option_bd4d34382e494336a6cdaf8ef133cfac = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "sunburst",
+            "data": [
+                {
+                    "name": "A",
+                    "itemStyle": {
+                        "color": "#da0d68"
+                    },
+                    "children": [
+                        {
+                            "name": "A1",
+                            "value": 5.8,
+                            "itemStyle": {
+                                "color": "#975e6d"
+                            }
+                        },
+                        {
+                            "name": "A2",
+                            "value": 4.5,
+                            "itemStyle": {
+                                "color": "#e0719c"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "B",
+                    "value": 19.8,
+                    "itemStyle": {
+                        "color": "#da1d23"
+                    },
+                    "children": [
+                        {
+                            "name": "B1",
+                            "value": 10.6,
+                            "itemStyle": {
+                                "color": "#dd4c51"
+                            }
+                        },
+                        {
+                            "name": "B2",
+                            "value": 9.2,
+                            "itemStyle": {
+                                "color": "#3e0317"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "C",
+                    "itemStyle": {
+                        "color": "#c94a44"
+                    },
+                    "children": [
+                        {
+                            "name": "C1",
+                            "value": 4.7,
+                            "itemStyle": {
+                                "color": "#b53b54"
+                            }
+                        },
+                        {
+                            "name": "C2",
+                            "value": 7.8,
+                            "itemStyle": {
+                                "color": "#a5446f"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "D",
+                    "itemStyle": {
+                        "color": "#f7a128"
+                    },
+                    "children": [
+                        {
+                            "name": "D1",
+                            "value": 21.4,
+                            "itemStyle": {
+                                "color": "#e2631e"
+                            }
+                        },
+                        {
+                            "name": "D2",
+                            "value": 35.9,
+                            "itemStyle": {
+                                "color": "#fde404"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "radius": [
+                0,
+                "95%"
+            ],
+            "highlightPolicy": "ancestor",
+            "nodeClick": "rootToNode",
+            "sort": "null",
+            "levels": [
+                {
+                    "label": {
+                        "rotate": "tangential"
+                    }
+                },
+                {
+                    "r0": "15%",
+                    "r": "35%",
+                    "itemStyle": {
+                        "borderWidth": 2
+                    },
+                    "label": {
+                        "rotate": "tangential"
+                    }
+                },
+                {
+                    "r0": "35%",
+                    "r": "70%",
+                    "label": {
+                        "align": "right"
+                    }
+                },
+                {
+                    "r0": "70%",
+                    "r": "72%",
+                    "label": {
+                        "position": "outside",
+                        "padding": 3,
+                        "silent": false
+                    },
+                    "itemStyle": {
+                        "borderWidth": 3
+                    }
+                }
+            ],
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "formatter": "{b} {c}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    }
+};
+        chart_bd4d34382e494336a6cdaf8ef133cfac.setOption(option_bd4d34382e494336a6cdaf8ef133cfac);
+    </script>
+</body>
+</html>
